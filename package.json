@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-test",
+  "version": "1.0.0",
+  "description": "My nuxt test app",
+  "author": "Georgiy Bukharov",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "nuxt": "^1.0.0",
+    "vuetify": "^1.0.19"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1"
+  }
+}

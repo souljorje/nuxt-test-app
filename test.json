@@ -1,0 +1,25 @@
+{
+  "news": {
+    "10": {
+      "author": "John Doe",
+      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa ipsum, voluptatibus at enim, blanditiis rerum impedit ad accusantium libero ex distinctio nam optio ducimus nisi dolor aspernatur suscipit delectus soluta!",
+      "id": 10,
+      "img": "http://media.graytvinc.com/images/810*455/john+doe+4+for+web.jpg",
+      "title": "Test"
+    },
+    "20": {
+      "author": "Lorem Ipsum",
+      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. London is a capital of Greate Britane",
+      "id": 20,
+      "img": "http://2.bp.blogspot.com/_7PUOaAdgEsA/SwvW1ml-IsI/AAAAAAAAACs/UNcnP_IWp3I/s1600/loremipsum.jpg",
+      "title": "WTF"
+    },
+    "30":{
+      "author": "Jiraya",
+      "content": "Raaaaaaaaaaaaaaaassssseeennnnggggannnnnnnnn",
+      "id": 30,
+      "img": "https://vignette.wikia.nocookie.net/fear-world/images/c/cf/Jiraiya.jpg/revision/latest?cb=20140518203041",
+      "title": "Naruto"
+    }
+  }
+}
