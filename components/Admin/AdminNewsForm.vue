@@ -58,7 +58,7 @@
         });
         if (postIsValid) {
           this.$store.dispatch('updateNews', this.editedPost);
-          this.editedPost = {
+          this.editedPost = this.post ? { ...this.post } : {
             author: '',
             title: '',
             img: '',

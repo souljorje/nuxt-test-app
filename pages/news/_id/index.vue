@@ -29,6 +29,6 @@ export default {
     post() {
       return this.$store.getters.loadedNews[this.$route.params.id];
     },
-  }
+  },
 };
 </script>
