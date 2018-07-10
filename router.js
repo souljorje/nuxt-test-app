@@ -33,17 +33,17 @@ export function createRouter() {
       },
       {
         name: 'admin-newsId',
-        path: 'admin/:newsId',
+        path: '/admin/news/:newsId',
         component: adminNewsID,
       },
       {
         name: 'admin-auth',
-        path: 'admin/auth',
+        path: '/admin/auth',
         component: adminAuth,
       },
       {
         name: 'admin-new-post',
-        path: 'admin/new-post',
+        path: '/admin/news/new-post',
         component: adminNewPost,
       },
       {
@@ -52,8 +52,8 @@ export function createRouter() {
         component: news,
       },
       {
-        path: 'news/:id',
         name: 'news-id',
+        path: '/news/:id',
         component: newsId,
       },
     ]

@@ -10,8 +10,8 @@
         </div>
       </v-card-title>
       <v-card-actions>
-        <v-btn v-if="isAdmin" :to="{name: 'admin-newsId', params: { newsId: id }}" flat color="primary">Edit</v-btn>
-        <v-btn v-else :to="{name: 'news-id', params: { id }}" flat color="primary">Read</v-btn>
+        <v-btn v-if="isAdmin" exact :to="{name: 'admin-newsId', params: { newsId: id }}" flat color="primary">Edit</v-btn>
+        <v-btn v-else exact :to="{name: 'news-id', params: { id }}" flat color="primary">Read</v-btn>
       </v-card-actions>
     </v-card>
   </v-flex>

@@ -6,6 +6,7 @@
 import NewsList from "@/components/NewsList";
 import { mapGetters } from 'vuex';
 export default {
+  middleware: 'log',
   components: {
     NewsList,
   },

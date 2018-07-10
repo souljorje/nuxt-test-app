@@ -26,6 +26,10 @@ module.exports = {
   */
   loading: { color: '#FFFFFF' },
 
+  axios: {
+    baseURL: 'https://nuxt-test-app.firebaseio.com',
+  },
+
   /*
   ** Global CSS
   */
@@ -45,6 +49,7 @@ module.exports = {
   */
   modules: [
     '@nuxtjs/router',
+    '@nuxtjs/axios',
   ],
 
   /*
